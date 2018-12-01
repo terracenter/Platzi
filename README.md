@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="platzi.jpg">
+  <img width="650" height="350" src="platzi.jpg">
   <br/>
   Cursos Platzi
   <br>
