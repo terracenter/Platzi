@@ -1,7 +1,9 @@
-<div align="center">
-  <img width="650" height="350" src="platzi.jpg"></img>  
-</div>
+<h1 align="center">
+  <img src="platzi.jpg">
+  <br/>
+  Cursos Platzi
+  <br>
+</h1>
 
-# Platzi
 Scripts, Notas, Archivos y Referencias de algunos cursos tomados en Platzi
 
