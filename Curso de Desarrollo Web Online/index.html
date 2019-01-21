@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
+        <meta charset="UTF-8"
         <title>Camilo Andres</title>
+        <link rel="icon" type="image/png" href="images/favicon.png" />
+        <link rel="stylesheet" href="css/estilos.css">
     </head>
 
     <body>
@@ -13,15 +16,15 @@
                 <nav>
                     <ul>
                         <li>
-                            <a>Portafolio</a>
+                            <a href="./portafolio/index.html">Portafolio</a>
                         </li>
                         
                         <li>
-                            <a>Experiencia</a>
+                            <a href="#eventos">Experiencia</a>
                         </li>
                         
                         <li>
-                            <a>Trabajemos Juntos</a>
+                            <a href="#contacto">Trabajemos Juntos</a>
                         </li>
                     </ul>
                 </nav>
@@ -33,10 +36,10 @@
                 Hola! Soy <strong>Camilo Andres</strong> <br/> Estudiante de Ingenieria de Sistemas
             </h1>
 
-            <img src="" alt="">Imagen de Portada</img>
+            <img src="images/hero.jpg" width="500" height="300" alt="Imagen principal del sitio">
         </section>
 
-        <section>
+        <section id="portafolio">
             <h2>Portafolio (Proyectos Destacados)</h2>
             <article>
                 <h3>Proyecto 1</h3>
@@ -52,26 +55,33 @@
                     desconocido usó una galería de textos y los mezcló de 
                     tal manera que logró hacer un libro de textos especimen. 
                 </p>
+                <img  width="500" src="images/platzi-video-react-native.png" alt="prouyecto del curso de React Native">
             </article>
         </section>
 
 
-        <section>
+        <section id="eventos">
             <h2>Mas sobre mi experencia</h2>
             <article>
                 <figure>
-                    <img/>
+                    <img src="images/platzi-conf.jpg" width="500" />
                 </figure>
                 <h3>Evento 01</h3>
                 <p>Suspendisse vestibulum ipsum quis ante fermentum, eu euismod eros ultrices</p>
-                <a>Ver Plática</a>
+                <a href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Plática</a>
             </article>           
         </section>
 
 
-        <section>Sección contacto</section>
+        <section id="contacto">
+            <form action="/suscripcion/">
+                <h3>¿Creemos algo juntos?</h3>
+                <input type="text" placeholder="Déjame tu email" id="email">
+                <button>Enviar</button>
+            </form>
+        </section>
         
-        <footer></footer>
+        <footer>Pie de pagina</footer>
 
     </body>
 
