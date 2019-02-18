@@ -1,0 +1,15 @@
+.padre{
+    display: flex;
+    flex-wrap: wrap; /* Que las cajas caigan a una nueva fila o no, en caso de alcanzar el limite -> wrap:caen, nowrap:no caen*/
+    /* flex-direction: column; -> La direccion qeu tomaran las cajas hijas */
+
+}
+
+.hijo{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin: 10px;
+    flex-shrink: 0; /* Que tan flexible son mis cajas hijas*/
+
+}
