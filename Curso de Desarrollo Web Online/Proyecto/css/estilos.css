@@ -24,13 +24,14 @@ h1{
     /*text-transform: uppercase;*/ /*Mayusculas, minusculas y otro*/
     /*text-decoration: dashed;*/ /*Decoaciones añ texto*/
 
-    margin: 100px 150px 70px 30px;
+    /* margin: 100px 150px 70px 30px; */
+    margin: 0px;
 }
 
 h1 strong{
     color: #026fff;
-
 }
+
 .hero{
     height: 300px;
     background-image: url(../images/hero.jpg);
@@ -38,11 +39,23 @@ h1 strong{
     background-size: 500px 300px;
     background-repeat: no-repeat;
     background-position-x: right;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .portfolio{
     background-color: #FAFAFA;
+    padding: 20px;
+}
 
+h2{
+    color: #026fff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
 }
 
 .project{   
@@ -62,13 +75,33 @@ h1 strong{
     /* margin-top: 15px; */
     /* margin-right: 15px; */
     /* margin-left: 15px; */
-    margin: 10px;
+    /* margin: 10px; */
     margin-bottom: 15px;
 
     padding: 20px;
 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.project-title{
+    font-size: 30px;
+    margin-top: 0px; 
+    margin-bottom: 10px;
+}
+
+.project-course, .project-url, .project-date {
+    margin: 10px 0px;
+}
+
+.project-description{
+    font-size: 20px;
+}
+
+.project strong{
+    font-family: 'Fjalla One', sans-serif;
+}
 .project-details{
     width: 500px;
 }
@@ -77,12 +110,62 @@ h1 strong{
     width: 500px;
 }
 
+
+/* Header */
+
 .header{
     background-color: #1b2127;
     color:white;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
+
+ul, ol{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+figure{
+    margin: 0px;
+}
+
+
+.menu{
+    height: inherit;
+}
+
+.header ol{
+    display: flex;
+    height: inherit;
+}
+
+.header ol li{
+    height: inherit;
+}
+
 .header a{
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0px 10px;
     color:white;
     text-decoration: none;
 }
 
+.footer{
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer img{
+    vertical-align: middle;
+}
+.footer a{
+    color: white;
+}
