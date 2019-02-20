@@ -34,14 +34,19 @@ h1 strong{
 
 .hero{
     height: 300px;
-    background-image: url(../images/hero.jpg);
+    /* background-image: url(../images/hero.jpg); */
     background-color: #1b2127;
-    background-size: 500px 300px;
-    background-repeat: no-repeat;
-    background-position-x: right;
+    /* background-size: 500px 300px; */
+    /* background-repeat: no-repeat; */
+    /* background-position-x: right; */
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+}
+
+.hero-image{
+    object-fit: cover;
 }
 
 .portfolio{
@@ -168,4 +173,124 @@ figure{
 }
 .footer a{
     color: white;
+}
+
+.event-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.event{
+    margin: 10px;
+    width: 480px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f4fbff;
+}
+.event img{
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+.event-details{
+    margin: 20px 40px;
+    background-color: white;
+    padding: 20px;
+    margin-top: -40px;
+    position: relative; 
+    text-align: center;
+}
+
+.event-description{
+    text-align: left;
+}
+
+.event-url{
+    color: #056fff;
+    border: 1px solid #056fff;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.event-list-title{
+    margin-left: 20px;
+}
+
+
+.contact{
+    background-color: #056fff;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social{
+
+}
+
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+}
+
+.social-link.twitter{
+    background-image: url(../images/twitter.svg);
+    background-size: 50px 50px;
+}
+
+.social-link.facebook{
+    background-image: url(../images/facebook.svg);
+    background-size: 50px 50px;
+}
+.social-link.github{
+    background-image: url(../images/github.svg);
+    background-size: 50px 50px;
+}
+.social-link.instagram{
+    background-image: url(../images/instagram.svg);
+    background-size: 50px 50px;
+}
+
+.form-email input{
+    border-color: gray;
+    padding:  10px 20px 10px 25px;
+    background-image: url(../images/envelope.svg);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;  
+    background-position-x: 5px;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.form-email button{
+    border-style: solid;
+    display: block;
+    margin-top:10px;
+    background-color: transparent;
+    color: white;
+    padding: 10px 0px;
+    border-radius: 5px;  
+    width: 100px;
+}
+
+.form-email h3{
+    
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    height: inherit;
+    flex-wrap: inherit;
 }
