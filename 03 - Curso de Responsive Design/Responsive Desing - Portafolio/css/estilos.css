@@ -329,3 +329,32 @@ figure {
   height: inherit;
   flex-wrap: inherit;
 }
+
+
+/* Diseño Desktop First  - con medias quieres*/
+
+@media screen and (max-width: 1024px){
+  body{
+    border: 10px solid blue;
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  body{
+    border: 10px solid purple;
+  }
+}
+
+
+@media screen and (max-width: 480px){
+  body{
+    border: 10px solid palevioletred;
+  }
+}
+
+@media screen and (max-width: 320px){
+  body{
+    border: 10px solid pink;
+  }
+}
